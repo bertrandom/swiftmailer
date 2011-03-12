@@ -21,7 +21,9 @@ interface Swift_Transport_EventBuffer
 {
   public function attachBaseEvent($eventBaseRessource);
   
-  public function NotifyOnReadReady($callback);
+  public function notifyOnReadReady($callback);
   
-  public function NotifyOnWriteDone($callback);
+  public function notifyOnWriteDone($callback);
+ 
+  public function notifyOnError($callback);
 }

@@ -27,20 +27,27 @@ Class Swift_Transport_EventStreamBuffer
 	}
 
 	/* (non-PHPdoc)
-	 * @see Swift_Transport_EventBuffer::NotifyOnReadReady()
+	 * @see Swift_Transport_EventBuffer::notifyOnReadReady()
 	 */
-	public function NotifyOnReadReady($callback) {
+	public function notifyOnReadReady($callback) {
 		// TODO Auto-generated method stub
 		
 	}
 
 	/* (non-PHPdoc)
-	 * @see Swift_Transport_EventBuffer::NotifyOnWriteDone()
+	 * @see Swift_Transport_EventBuffer::notifyOnWriteDone()
 	 */
-	public function NotifyOnWriteDone($callback) {
+	public function notifyOnWriteDone($callback) {
 		// TODO Auto-generated method stub
 		
 	}
 
-  
+	/* (non-PHPdoc)
+	 * @see Swift_Transport_EventBuffer::notifyOnError()
+	 */
+	public function notifyOnError($callback) {
+		// TODO Auto-generated method stub
+		
+	}
+
 }
