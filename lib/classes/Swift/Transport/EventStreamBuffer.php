@@ -21,7 +21,7 @@ Class Swift_Transport_EventStreamBuffer
 	/* (non-PHPdoc)
 	 * @see Swift_Transport_EventBuffer::setEventBase()
 	 */
-	public function setEventBase($eventBaseRessource) {
+	public function attachBaseEvent($eventBaseRessource) {
 		// TODO Auto-generated method stub
 		
 	}

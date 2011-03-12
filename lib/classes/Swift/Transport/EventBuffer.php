@@ -19,7 +19,7 @@
 interface Swift_Transport_EventBuffer
   extends Swift_Transport_IoBuffer
 {
-  public function setEventBase($eventBaseRessource);
+  public function attachBaseEvent($eventBaseRessource);
   
   public function NotifyOnReadReady($callback);
   
