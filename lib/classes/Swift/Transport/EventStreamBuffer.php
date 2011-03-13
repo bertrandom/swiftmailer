@@ -18,36 +18,49 @@ Class Swift_Transport_EventStreamBuffer
   extends Swift_Transport_StreamBuffer
   implements Swift_Transport_EventBuffer
 {
-	/* (non-PHPdoc)
-	 * @see Swift_Transport_EventBuffer::setEventBase()
-	 */
-	public function attachBaseEvent($eventBaseRessource) {
-		// TODO Auto-generated method stub
-		
-	}
 
-	/* (non-PHPdoc)
-	 * @see Swift_Transport_EventBuffer::notifyOnReadReady()
-	 */
-	public function notifyOnReadReady($callback) {
-		// TODO Auto-generated method stub
-		
-	}
+  /* (non-PHPdoc)
+   * @see Swift_Transport_EventBuffer::setEventBase()
+   */
+  public function attachBaseEvent($eventBaseRessource)
+  {
+    // TODO Auto-generated method stub
+  }
 
-	/* (non-PHPdoc)
-	 * @see Swift_Transport_EventBuffer::notifyOnWriteDone()
-	 */
-	public function notifyOnWriteDone($callback) {
-		// TODO Auto-generated method stub
-		
-	}
+  /* (non-PHPdoc)
+   * @see Swift_Transport_EventBuffer::notifyOnReadReady()
+   */
+  public function notifyOnReadReady($callback)
+  {
+    // TODO Auto-generated method stub
+  
 
-	/* (non-PHPdoc)
-	 * @see Swift_Transport_EventBuffer::notifyOnError()
-	 */
-	public function notifyOnError($callback) {
-		// TODO Auto-generated method stub
-		
-	}
+  }
+
+  /* (non-PHPdoc)
+   * @see Swift_Transport_EventBuffer::notifyOnWriteDone()
+   */
+  public function notifyOnWriteDone($callback)
+  {
+    // TODO Auto-generated method stub
+  }
+
+  /* (non-PHPdoc)
+   * @see Swift_Transport_EventBuffer::notifyOnError()
+   */
+  public function notifyOnError($callback)
+  {
+    // TODO Auto-generated method stub
+  
+
+  }
+
+  /* (non-PHPdoc)
+   * @see Swift_Transport_EventBuffer::setWriteLowWatermark()
+   */
+  public function setWriteLowWatermark($wm)
+  {
+  
+  }
 
 }

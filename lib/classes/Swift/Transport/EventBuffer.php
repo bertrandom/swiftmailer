@@ -26,4 +26,6 @@ interface Swift_Transport_EventBuffer
   public function notifyOnWriteDone($callback);
  
   public function notifyOnError($callback);
+  
+  public function setWriteLowWatermark ($wm);
 }
