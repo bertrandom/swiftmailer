@@ -40,7 +40,7 @@ Class Swift_Transport_EventStreamBuffer
   /* (non-PHPdoc)
    * @see Swift_Transport_EventBuffer::notifyOnWriteDone()
    */
-  public function notifyOnWriteDone($callback)
+  public function notifyOnWriteLow($callback)
   {
     // TODO Auto-generated method stub
   }

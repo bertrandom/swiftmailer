@@ -71,4 +71,30 @@ Class Swift_EventMailer
   {
     
   }
+  
+  /**
+   * Starts a Swift_StatefulTransport with the workloop
+   * The callbacks will receive the stateFull transports on error 
+   * 
+   * @param Swift_StatefulTransport $transport
+   * @param callback $onTransportReadyCallback
+   * @param callback $onErrorCallback
+   */
+  public function startTransport(Swift_StatefulTransport $transport, $onTransportReadyCallback=null, $onErrorCallback=null)
+  {
+    
+  }
+
+  /**
+   * Stops a Swift_StatefulTransport with the workloop
+   * The callbacks will receive the StateFulTransports on error 
+   * 
+   * @param Swift_StatefulTransport $transport
+   * @param callback $onTransportStoppedCallback
+   * @param callback $onErrorCallback
+   */
+  public function stopTransport(Swift_StatefulTransport $transport, $onTransportStoppedCallback=null, $onErrorCallback=null)
+  {
+    
+  }  
 }

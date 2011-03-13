@@ -23,7 +23,7 @@ interface Swift_Transport_EventBuffer
   
   public function notifyOnReadReady($callback);
   
-  public function notifyOnWriteDone($callback);
+  public function notifyOnWriteLow($callback);
  
   public function notifyOnError($callback);
   

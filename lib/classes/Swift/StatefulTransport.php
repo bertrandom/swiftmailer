@@ -60,6 +60,12 @@ Interface Swift_StatefulTransport extends Swift_Transport
   public function getFailedRecipients();
   
   /**
+   * Retrieves the number of Recipient correctly routed
+   * @return int
+   */
+  public function getSentCount();
+  
+  /**
    * Return the Exception encountered by the transport
    * 
    * @return Swift_SwiftException
