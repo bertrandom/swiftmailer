@@ -22,7 +22,7 @@ class Swift_SmtpTransport extends Swift_Transport_EsmtpTransport
    * Create a new SmtpTransport, optionally with $host, $port and $security.
    * @param string $host
    * @param int $port
-   * @param int $security
+   * @param string $security
    */
   public function __construct($host = 'localhost', $port = 25,
     $security = null)
