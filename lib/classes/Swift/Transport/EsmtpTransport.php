@@ -120,7 +120,7 @@ class Swift_Transport_EsmtpTransport
   
   /**
    * Set the encryption type (tls or ssl)
-   * @param string $encryption
+   * @param string $enc
    */
   public function setEncryption($enc)
   {
